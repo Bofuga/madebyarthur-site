@@ -49,7 +49,7 @@ p{
   font-family: 'Lato',verdana,serif;
   font-style: normal;
   word-wrap: break-word;
-  border:solid green 2px;
+  borderr:solid green 2px;
 }
 body{
   overflow-x: hidden;
@@ -137,7 +137,7 @@ nav{
   height: 100vh;
   width:10vw;
   background-image: linear-gradient(black,black);
-  border:3px solid orange;
+  borderr:3px solid orange;
   overflow:hidden;
   align-items: center;
   display: flex;
@@ -171,13 +171,13 @@ nav:hover{
 }
 .container div .text{
   display: flex;
-  border:blue solid 3px;
+  borderr:blue solid 3px;
   margin-left: 2vw;
   width: 100%;
 }
 
 img{
-  border:yellow solid 1px;
+  borderr:yellow solid 1px;
   object-fit: cover;
   height: 30%;
   width: 35%
