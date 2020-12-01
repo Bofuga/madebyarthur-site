@@ -2,58 +2,69 @@
   font-family: 'Lato';
   src: url('../Lato/Lato-Light.ttf');
 }
+
 @font-face {
   font-family: 'Lato Bold';
   src: url('../Lato/Lato-Bold.ttf');
 }
+
 @font-face {
   font-family: 'Lato Thin';
   src: url('../Lato/Lato-Thin.ttf');
 }
+
 @keyframes navanim {
   from margin
 }
-*{
+
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
-a{
+
+a {
   text-decoration: none;
   color: white;
-  }
+}
 
-a:hover{
+a:hover {
   color: grey;
 }
-.lien_nav{
+
+.lien_nav {
   padding-left: 0;
   font-size: 1.2em;
   font-family: 'Lato Bold';
   color: white;
   word-break: keep-all;
   word-wrap: normal;
-  transition : font-size 1s
+  transition: font-size 1s
 }
-.lien_nav:hover{
+
+.lien_nav:hover {
   animation-fill-mode: forwards;
   animation-direction: alternate;
   font-size: 1.5em;
-  transition : font-size .5s;
+  transition: font-size .5s;
 }
 
-p{
+p {
   color: white;
   font-size: 1em;
-  font-family: 'Lato',verdana,serif;
+  font-family: 'Lato', verdana, serif;
   font-style: normal;
   word-wrap: break-word;
-  borderr:solid green 2px;
+  borderr: solid green 2px;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
-body{
+
+body {
   overflow-x: hidden;
-  font-family: 'Lato',verdana,serif;
+  font-family: 'Lato', verdana, serif;
   background-color: grey;
   background-repeat: space;
   background-position: center;
@@ -63,60 +74,57 @@ body{
   flex-direction: column;
 }
 
-section{
+section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   z-index: 2;
   padding-top: 0%;
   height: 100vh;
   background-size: cover;
-  scroll-snap-align:center;
+  scroll-snap-align: center;
 }
 
-h1{
-    animation-duration: 8s;
-    aanimation-name: slidein;
-    animation-iteration-count: infinite;
-    color: white;
-    font-size: 2.5em;
-    font-family: 'Lato Bold';
-    text-decoration: normal;
-    text-align: center;
+h1 {
+  color: white;
+  font-size: 2.5em;
+  font-family: 'Lato Bold';
+  text-decoration: normal;
+  text-align: center;
 }
-h2{
+
+h2 {
   color: white;
   text-align: center;
 }
 
-strong{
-  color : white;
+strong {
+  color: white;
   font-weight: bold;
 }
-em{
+
+em {
   font-style: normal;
   font-size: 2em
 }
 
-
-ul{
+ul {
   list-style: none;
   text-align: justify;
   margin-left: 5%;
-  padding-left:0;
+  padding-left: 0;
   overflow: hidden;
   word-break: break-all;
   word-wrap: break-word;
 }
 
-
-header{
+header {
   z-index: 3;
   margin-left: 0vw;
-  position:absolute;
+  position: absolute;
   top: 0;
-  width : 100%;
+  width: 100%;
   margin-top: 0%;
   background-color: black;
   height: 10vh;
@@ -128,72 +136,86 @@ header{
   align-items: center;
 }
 
-nav{
+nav {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   font-size: 1em;
   z-index: 3;
   height: 100vh;
-  width:10vw;
-  background-image: linear-gradient(black,black);
-  borderr:3px solid orange;
-  overflow:hidden;
+  width: 10vw;
+  background-image: linear-gradient(black, black);
+  borderr: 3px solid orange;
+  overflow: hidden;
   align-items: center;
   display: flex;
   margin-left: -9vw;
   transition: margin-left 2s
 }
-nav:hover{
+
+nav:hover {
   margin-left: 0vw;
   transition: margin-left .5s
 }
 
-
 .container {
   position: relative;
-  right: 0;
   scroll-snap-type: y mandatory;
-  overflow-y: scroll;
+  overflow-y: visible;
   overflow-x: hidden;
-  width: 100vw;
   height: 100vh;
-
 }
 
 .container .mysection {
-  margin-left: 10vw;
   scroll-snap-align: center;
-  scroll-snap-stop:always;
+  scroll-snap-stop: always;
   height: 100vh;
-  position:relative;
+  position: relative;
   align-self: flex-start;
 }
-.container div .text{
+
+.container div .text {
+  flex-basis: auto;
+  min-height: 12%;
+  max-width: 90%;
   display: flex;
-  borderr:blue solid 3px;
-  margin-left: 2vw;
-  width: 100%;
+  borderr: blue solid 3px;
+  flex-flow: column nowrap;
+  align-items: center;
+  align-content: center;
+  background-color: black;
+  border-radius: 25px;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  margin-left: 60%;
+}
+h1{
+  borderr: red solid 3px;
+}
+p{
+  borderr: blue solid 3px;
 }
 
-img{
-  borderr:yellow solid 1px;
+img {
+  borderr: yellow solid 1px;
   object-fit: cover;
   height: 30%;
   width: 35%
-
 }
 
-#section1{
+#section1 {
   background-image: url(../img/img-1.jpg);
   background-position: center;
 }
-#section2{
+
+#section2 {
   background-image: url(../img/img-2.jpg);
 }
-#section3{
+
+#section3 {
   background-image: url(../img/img-3.jpg);
 }
-#section4{
+
+#section4 {
   background-image: url(../img/img-4.jpg);
 }
