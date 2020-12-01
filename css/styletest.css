@@ -56,7 +56,6 @@ p {
   font-family: 'Lato', verdana, serif;
   font-style: normal;
   word-wrap: break-word;
-  borderr: solid green 2px;
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
@@ -145,7 +144,6 @@ nav {
   height: 100vh;
   width: 10vw;
   background-image: linear-gradient(black, black);
-  borderr: 3px solid orange;
   overflow: hidden;
   align-items: center;
   display: flex;
@@ -179,7 +177,6 @@ nav:hover {
   min-height: 12%;
   max-width: 90%;
   display: flex;
-  borderr: blue solid 3px;
   flex-flow: column nowrap;
   align-items: center;
   align-content: center;
@@ -189,15 +186,9 @@ nav:hover {
   padding-bottom: 0.7%;
   margin-left: 60%;
 }
-h1{
-  borderr: red solid 3px;
-}
-p{
-  borderr: blue solid 3px;
-}
+
 
 img {
-  borderr: yellow solid 1px;
   object-fit: cover;
   height: 30%;
   width: 35%
