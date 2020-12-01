@@ -31,7 +31,7 @@ a:hover{
   padding-left: 0;
   font-size: 1.2em;
   font-family: 'Lato Bold';
-  color: black;
+  color: white;
   word-break: keep-all;
   word-wrap: normal;
   transition : font-size 1s
@@ -107,10 +107,7 @@ em{
   font-style: normal;
   font-size: 2em
 }
-.thetruth{
-  color : white;
-  text-decoration: underline;
-}
+
 
 ul{
   list-style: none;
@@ -141,7 +138,6 @@ header{
 }
 
 nav{
-  color: white;
   position: absolute;
   top:0;
   left: 0;
@@ -166,7 +162,6 @@ nav:hover{
 .container {
   position: relative;
   right: 0;
-  margsdsin-left: 10vw;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -188,9 +183,8 @@ nav:hover{
   border:blue solid 3px;
   margin-left: 2vw;
   width: 100%;
-
-
 }
+
 img{
   border:yellow solid 1px;
   object-fit: cover;
@@ -198,10 +192,6 @@ img{
   width: 35%
 
 }
-.illustration{
-  object-fidsdst: cover;
-}
-
 
 #section1{
   background-image: url(../img/img-1.jpg);
