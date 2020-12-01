@@ -37,7 +37,6 @@ a:hover{
   transition : font-size 1s
 }
 .lien_nav:hover{
-  animatsssion: GetBigger .5s;
   animation-fill-mode: forwards;
   animation-direction: alternate;
   font-size: 1.5em;
@@ -55,8 +54,6 @@ p{
 body{
   overflow-x: hidden;
   font-family: 'Lato',verdana,serif;
-  /*background-color: #001D28;*/
-  /*background-image: url('background.jpg');*/
   background-color: grey;
   background-repeat: space;
   background-position: center;
@@ -66,12 +63,6 @@ body{
   flex-direction: column;
 }
 
-.containsdser div:first-of-type{
-  display: flex;
-  flex-direction: column;
-  justify-consdstent: space-between;
-  align-self: flex-start;
-}
 section{
   display: flex;
   justify-content: center;
